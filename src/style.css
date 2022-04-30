@@ -1,0 +1,171 @@
+*,
+*::before,
+**::after{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+body{
+ background-color: rgba(1, 22, 39, 1);
+ font-family: 'Fira Code', monospace;
+}
+
+.display-none {
+ display: none;
+}
+
+.d-flex {
+ display: flex;
+}
+
+.wrapper-section {
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ width: 97%;
+ margin: auto;
+ background-color: rgba(255, 255, 255, 0.06);
+ overflow: hidden;
+}
+
+.header {
+ border: 1px solid #1E2D3D;
+ padding: 1rem;
+ justify-content: space-between;
+}
+
+.header a {
+ text-decoration: none;
+ color: rgba(96, 123, 150, 1);
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 21px;
+}
+
+.intro-content {
+ padding: 3rem 1rem 
+}
+
+.intro-content .gretting {
+ color: rgba(229, 233, 240, 1);
+}
+
+.intro-content h1 {
+ color: rgba(229, 233, 240, 1);
+ max-width: 215px;
+ font-size: 40px;
+ line-height: 50px;
+ margin: 0;
+}
+
+.job {
+ color : rgba(67, 217, 173, 1);
+ font-size: 15px;
+}
+
+.profile {
+ color: rgba(96, 123, 150, 1);
+ width: 100%;
+ font-size: 12px;
+ margin: 5rem 0 10px 0;
+}
+
+.const {
+ color: #4D5BCE;
+ font-size: 14px;
+}
+
+.githubLink {
+ color: rgba(67, 217, 173, 1);
+ font-size: 14px;
+}
+
+.equal {
+ color:rgba(229, 233, 240, 1);
+}
+
+.link,
+.link:active {
+ text-decoration: none;
+ color: rgb(255,20,147)
+;
+ font-size: 12px;
+ width: 44%;
+}
+
+.about-container {
+ flex-direction: column;
+ gap: 5px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.personal,
+.professional,
+.hobbies,
+.contact {
+ background-color: #1E2D3D;
+ color: rgba(255, 255, 255, 1);
+ align-items: center;
+ padding-left: 1rem;
+}
+
+.personal p,
+.professional p,
+.hobbies p,
+.contact p{
+  padding-left: 1rem;
+}
+
+.personal-folders-container {
+ flex-direction: column;
+ padding-left: 1.2rem;
+}
+
+.bio,
+.interests,
+.education {
+ align-items: center;
+}
+
+.bio i ,
+.interests i ,
+.education i {
+ padding-right: 10px;
+}
+
+.bio p ,
+.interests p ,
+.education p,
+.arrow {
+ color: rgba(96, 123, 150, 1);
+}
+
+.folder-red {
+ color: rgba(233, 146, 135, 1);
+}
+
+.folder-green {
+ color: rgba(67, 217, 173, 1);
+}
+
+.folder-blue {
+ color: rgba(58, 73, 164, 1);
+}
+
+.bio-description-container {
+ background-color: rgba(1, 22, 39, 1);
+ border: 1px solid rgba(0, 0, 0, 0.24);
+ width: 90%;
+ padding: 6px;
+ border-radius: 10px;
+ scroll-behavior: smooth;
+}
+
+.bio-description {
+ color: rgba(229, 233, 240, 1);
+ line-height: 2;
+ scroll-behavior: smooth;
+}
+
+.bio-description span{
+ color: rgba(233, 146, 135, 1);
+}
