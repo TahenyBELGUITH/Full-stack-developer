@@ -153,7 +153,7 @@ body {
 .bio-description-container {
   background-color: rgba(1, 22, 39, 1);
   border: 1px solid rgba(0, 0, 0, 0.24);
-  width: 90%;
+  width: 88%;
   padding: 6px;
   border-radius: 10px;
   scroll-behavior: smooth;
@@ -161,7 +161,7 @@ body {
 
 .bio-description {
   color: rgba(229, 233, 240, 1);
-  line-height: 2;
+  line-height: 3;
   scroll-behavior: smooth;
 }
 
@@ -170,9 +170,9 @@ body {
 }
 
 .interests-description {
-  padding: 7px;
+  padding: 0;
   background-color: rgba(1, 22, 39, 1);
-  width: 87%;
+  width: 93%;
   list-style: none;
   border: 1px solid rgba(0, 0, 0, 0.24);
   color: rgba(229, 233, 240, 1);
@@ -189,6 +189,12 @@ body {
   padding-left: 10px;
 }
 
+.languages-container ul li,
+.Framework-container ul li,
+.skills-container ul li {
+  margin-bottom: 10px;
+}
+
 .interests-description li:nth-child(odd) {
   color: rgba(67, 217, 173, 1);
 }
@@ -197,8 +203,12 @@ body {
   padding: 7px;
   background-color: rgba(1, 22, 39, 1);
   border-radius: 10px;
-  width: 90%;
+  width: 83%;
   margin: auto;
+}
+
+.education-description {
+  padding-left: 10px;
 }
 
 .education-description,
@@ -207,4 +217,37 @@ body {
   list-style: none;
   color: rgba(58, 73, 164, 1);
   text-decoration: none;
+}
+
+.professional-folders-container .bio {
+  padding-left: 1rem;
+}
+
+.languages-container,
+.Framework-container,
+.skills-container {
+  background-color: rgba(1, 22, 39, 1);
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  color: rgba(229, 233, 240, 1);
+}
+
+.languages-container ul,
+.Framework-container ul,
+.skills-container ul {
+  list-style: none;
+}
+
+.languages-container span {
+  color: rgba(233, 146, 135, 1);
+}
+
+.Framework-container span {
+  color: rgba(67, 217, 173, 1);
+}
+
+.skills-container span {
+  color: rgba(58, 73, 164, 1);
 }
